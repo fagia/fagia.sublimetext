@@ -1,6 +1,6 @@
 galaxy_info:
   author: Matteo Cajani
-  description: Sublime-text editor installer/updater for Ubuntu-based distros.
+  description: "Sublime Text editor installer/updater (stable version) for Debian-based distros. Based on: https://www.sublimetext.com/docs/3/linux_repositories.html#apt"
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -50,6 +50,14 @@ galaxy_info:
     #
     # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
     #       Maximum 20 tags per role.
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
 
 dependencies: []
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,

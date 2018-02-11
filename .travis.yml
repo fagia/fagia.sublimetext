@@ -29,5 +29,5 @@ script:
     && (echo 'Idempotence test: pass' && exit 0)
     || (echo 'Idempotence test: fail' && exit 1)
 
-  # Make sure that sublime-text has been installed.
+  # Make sure that Sublime Text has been installed.
   - "subl --version"
