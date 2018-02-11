@@ -1,6 +1,8 @@
 Fagia Sublime-text
 =========
 
+[![Build Status](https://travis-ci.org/fagia/fagia.sublimetext.svg?branch=master)](https://travis-ci.org/fagia/fagia.sublimetext)
+
 Sublime-text editor installer/updater for Ubuntu-based distros.
 
 Requirements
