@@ -20,6 +20,11 @@
   apt: name=sublime-text state=latest update_cache=yes
   become: True
 
+- name: Make sure that Sublime Text user's settings directory exists
+  file:
+    state: directory
+    path: ~/.config/sublime-text-3/Packages/User/
+
 - name: Configure Sublime Text user's settings
   template:
     src: Preferences.sublime-settings.j2
