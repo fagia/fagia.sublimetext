@@ -19,3 +19,10 @@
 - name: Install Sublime Text
   apt: name=sublime-text state=latest update_cache=yes
   become: True
+
+- name: Configure Sublime Text user's settings
+  template:
+    src: Preferences.sublime-settings.j2
+    dest: ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+    force: True
+    mode: 0644
