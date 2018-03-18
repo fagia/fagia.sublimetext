@@ -17,6 +17,11 @@ Example Playbook
       roles:
          - { role: fagia.sublimetext }
 
+Role Variables
+----------------
+
+It's possible to customize Sublime Text user preferences, see `defaults/main.yml`
+
 License
 -------
 

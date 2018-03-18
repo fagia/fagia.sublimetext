@@ -1,5 +1,12 @@
 ---
 # defaults file for fagia.sublimetext
 
-sublime_user: root
-user_preferences: {}
+sublime_user: root     # The user for which Sublime Text's preferences will be set
+
+user_preferences: {}   # Sublime Text's preferences, eg:
+                       #
+                       #     user_preferences:
+                       #       hot_exit: true
+                       #       ignored_packages:
+                       #         - "Vintage"
+                       #
