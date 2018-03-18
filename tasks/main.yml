@@ -24,6 +24,8 @@
   file:
     state: directory
     path: ~/.config/sublime-text-3/Packages/User/
+  become: True
+  become_user: "{{ sublime_user }}"
 
 - name: Configure Sublime Text user's settings
   template:
@@ -31,3 +33,5 @@
     dest: ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
     force: True
     mode: 0644
+  become: True
+  become_user: "{{ sublime_user }}"

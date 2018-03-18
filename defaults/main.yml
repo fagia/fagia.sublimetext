@@ -1,4 +1,5 @@
 ---
 # defaults file for fagia.sublimetext
 
+sublime_user: root
 user_preferences: {}
